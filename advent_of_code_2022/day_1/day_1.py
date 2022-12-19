@@ -1,5 +1,5 @@
 def part_1():
-    with open("day_1/input.txt", "r") as f:
+    with open("advent_of_code_2022/day_1/input.txt", "r") as f:
         lines = f.readlines()
 
     # Go throw each line and find max kkals and current kkals
@@ -17,7 +17,7 @@ def part_1():
 
 
 def part_2():
-    with open("day_1/input.txt", "r") as f:
+    with open("advent_of_code_2022/day_1/input.txt", "r") as f:
         lines = f.readlines()
 
     # Go throw each line and find max kkals and current kkals
@@ -33,7 +33,7 @@ def part_2():
 
             arr.append(cur_kk)
             cur_kk = 0
-            
+
     # Get sum of 3 biggest kkals items in list
     total_sum = sum(sorted(arr, reverse=True)[:3])
 

@@ -11,7 +11,7 @@ def get_item_value(item: str):
 
 
 def part_1():
-    with open("day_3/input.txt", "r") as f:
+    with open("advent_of_code_2022/day_3/input.txt", "r") as f:
         lines = f.readlines()
 
     # Map each line in lines with lambda function that splits rucksack
@@ -23,7 +23,7 @@ def part_1():
 
 
 def part_2():
-    with open("day_3/input.txt", "r") as f:
+    with open("advent_of_code_2022/day_3/input.txt", "r") as f:
         lines = np.array(f.readlines())
 
     # 1. Split all lines in groups for 3 lines in each group

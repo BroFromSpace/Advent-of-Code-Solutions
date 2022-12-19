@@ -1,5 +1,5 @@
 def part_1():
-    with open("day_2/input.txt", "r") as f:
+    with open("advent_of_code_2022/day_2/input.txt", "r") as f:
         lines = f.readlines()
 
     # Create dictionary with all possible combinations
@@ -21,7 +21,7 @@ def part_1():
 
 
 def part_2():
-    with open("day_2/input.txt", "r") as f:
+    with open("advent_of_code_2022/day_2/input.txt", "r") as f:
             with open("day_2/input.txt", "r") as f:
                 lines = f.readlines()
 
